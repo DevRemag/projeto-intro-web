@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-image: url("imgfilme/imagemFundo.jpg");
+}
+
+.header {
+    width: 100%;
+    background: #e0e0f0;;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .menu-esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.header .promocao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header .menu ul li {
+    list-style: none;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.menu-style {
+    height: 48px;
+    background-color: #fc7d03;
+    display: flex;
+    align-items: center;
+    padding: 0px 32px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.infofilme{
+    text-align: center;
+    height: 10px;
+    background: #e0e0f0;;
+    display: flex;
+    align-items: center;
+    padding: 50px 8px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-size: 20px;  
+    
+}
+
+.footer{
+    background: #e0e0f0;;
+    text-align: center;
+}
